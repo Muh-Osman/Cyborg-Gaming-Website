@@ -1,0 +1,31 @@
+.button a {
+    font-size: 14px;
+    color: var(--clr-light);
+    border-radius: var(--border-radius-primary);
+    text-transform: capitalize;
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+
+.primary-btn a {
+    background-color: var(--clr-primary);
+}
+
+.primary-btn a:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-primary);
+}
+
+
+
+.secondary-btn a {
+    background-color: var(--clr-darkest);
+    color: var(--clr-primary);
+    border: 1px solid var(--clr-primary);
+}
+
+.secondary-btn a:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-primary);
+}
