@@ -12,7 +12,7 @@ const Header = () => {
             <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
-                        <img src={logo} />
+                        <img src={logo} alt={'logo'} />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                         <span className="navbar-toggler-icon"></span>
