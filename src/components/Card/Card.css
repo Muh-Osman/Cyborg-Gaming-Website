@@ -7,6 +7,14 @@
     border-radius: calc(var(--border-radius-primary) / 2);
     padding: calc(var(--padding-primary) / 2);
     margin: calc(var(--margin-primary) / 5);
+    cursor: pointer;
+
+
+}
+
+.card-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.133);
+
 }
 
 .most-popular-item-image {
