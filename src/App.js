@@ -11,7 +11,7 @@ import { Home, Profile } from "./Pages"
 const App = () => {
     return (
         <>
-            <Router basename={'/react-project'}>
+            <Router basename={'/Cyborg-Gaming-Website/'}>
                 <Header />
                 <Container>
                     <Routes>
